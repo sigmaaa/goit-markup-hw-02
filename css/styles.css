@@ -48,6 +48,10 @@ ul {
     color: #2e2f42;
 }
 
+.header-nav-link:focus {
+    color: #404BBF;
+}
+
 .header-nav-link:hover {
     color: var(--hover-color);
 }
@@ -57,7 +61,7 @@ ul {
 }
 
 .header-address-link {
-    color: #2e2f42;
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
