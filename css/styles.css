@@ -45,30 +45,29 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    color: #2e2f42;
 }
 
 .header-nav-link:hover {
     color: var(--hover-color);
 }
 
-.header-nav-link:active {
-    border-bottom: 4px solid var(--hover-color);
-}
-
-address {
+.header-address {
     font-style: normal;
 }
 
-.header-email, .header-phone {
-    color: #434455;
+.header-address-link {
+    color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.header-email:hover, 
-.header-phone:hover {
+.header-address-link:hover {
+    color: #404BBF;
+}
+
+.header-address-link:focus {
     color: #404BBF;
 }
 
@@ -95,6 +94,10 @@ address {
     cursor: pointer;
 }
 
+.headline-button:focus {
+    background-color: #404BBF;
+}
+
 .headline-button:hover {
     background-color: #404BBF;
 }
@@ -116,7 +119,6 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
 }
 
 .team {
@@ -169,10 +171,11 @@ address {
     letter-spacing: 0.02em;
 }
 
-.portfoli-list-item-text {
+.portfolio-list-item-text {
     color: var(--slate-color);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer {
